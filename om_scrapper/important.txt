@@ -1,0 +1,428 @@
+we get this from https://axiom.trade/pulse?chain=sol we already put our filters so we only get the coins that match the filters, our goal next is to go to 
+https://axiom.trade/meme/9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6?chain=sol to get all the other data i sent an exemple of all the url request and their response
+https://axiomtrading.sfo3.cdn.digitaloceanspaces.com/Dt48inZpRzWxLXqajNZFAYTmzdJdZ5BTpMEj3TLHpump.webp
+Request Method
+GET
+Status Code
+200 OK
+Remote Address
+104.18.42.227:443
+Referrer Policy
+strict-origin-when-cross-origin
+
+
+
+https://api8.axiom.trade/token-info?pairAddress=9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6&v=2
+{numHolders: 126, numBotUsers: 69, top10HoldersPercent: 22.961744058618606, devHoldsPercent: 0,…}
+bundlersHoldPercent
+: 
+30.464170218665714
+devHoldsPercent
+: 
+0
+dexPaid
+: 
+false
+dexPaidTime
+: 
+null
+insidersHoldPercent
+: 
+6.955428773611602
+numBotUsers
+: 
+69
+numHolders
+: 
+126
+snipersHoldPercent
+: 
+1.7763568394002505e-15
+top10HoldersPercent
+: 
+22.961744058618606
+totalPairFeesPaid
+: 
+2.699171710125
+
+https://api8.axiom.trade/dev-tokens-v2?devAddress=EvugJFAyfH9tdB99uHar9frJr3ZLfpPQwaZZRdAsz3FT&v=2
+{tokens: [{pairAddress: "9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6",…},…],…}
+counts
+: 
+{totalCount: 62, migratedCount: 6}
+tokens
+: 
+[{pairAddress: "9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6",…},…]
+
+https://api9.axiom.trade/transactions-feed?pairAddress=9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6&orderBy=DESC&makerAddress=&v=2
+[{,…}, {,…}, {,…}, {,…}, {,…}, {,…}, {,…}, {,…}, {,…}, {,…}, {,…}, {,…}, {,…}, {,…}, {,…}, {,…}, {,…},…]
+0
+: 
+{,…}
+1
+: 
+{,…}
+2
+: 
+{,…}
+99
+: 
+{,…}
+
+
+0
+: 
+{,…}
+createdAt
+: 
+"2026-01-07T00:05:09.630Z"
+innerIndex
+: 
+4
+liquiditySol
+: 
+69.29774454
+liquidityToken
+: 
+464517285.151287
+makerAddress
+: 
+"92YwJ2WUPKaEyJXEnjMc7iQcdjWtj5i29Psu6b5RYVba"
+outerIndex
+: 
+5
+pairAddress
+: 
+"9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6"
+priceSol
+: 
+1.491082284650211e-7
+priceUsd
+: 
+0.0000210041306027252
+signature
+: 
+"2wwLqaaJ5iwoQVnHMbbXpkZLtQC24g1WyS4XyLeTau1YaF14urFjnWGdziibgvTf3CNFWmur7QP8KrFawBMVJRdR"
+tokenAmount
+: 
+230671.77683
+totalSol
+: 
+0.034825
+totalUsd
+: 
+4.9056236250000005
+type
+: 
+"buy"
+
+
+https://api9.axiom.trade/pair-chart?pairAddress=9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6&from=1767742884000&to=1767744384000&currency=USD&interval=5s&openTrading=1767742290246&lastTransactionTime=1767744322673&countBars=300&showOutliers=false&isNew=false&v=2
+
+
+{bars: [{time: 1767742350000, open: 0.000004583165349003069, high: 0.000006975315326680333,…},…],…}
+bars
+: 
+[{time: 1767742350000, open: 0.000004583165349003069, high: 0.000006975315326680333,…},…]
+[0 … 99]
+[100 … 199]
+[200 … 275]
+lastTransaction
+: 
+null
+noData
+: 
+true
+pairInfo
+: 
+null
+
+[0 … 99]
+0
+: 
+{time: 1767742350000, open: 0.000004583165349003069, high: 0.000006975315326680333,…}
+1
+: 
+{time: 1767742355000, open: 0.00000680077305399613, high: 0.000006647429920057748,…}
+
+
+
+Request URL
+https://api9.axiom.trade/top-traders-v3?pairAddress=9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6&onlyTrackedWallets=false&v=2
+Request Method
+GET
+
+
+0
+: 
+{makerAddress: "EvugJFAyfH9tdB99uHar9frJr3ZLfpPQwaZZRdAsz3FT", buyTransactions: 1, sellTransactions: 1,…}
+1
+: 
+{makerAddress: "Rg1YxXvRW75XCYMxm7VtrAiBmyp54yC4ftcE8f5tgiL", buyTransactions: 5, sellTransactions: 3,…}
+2
+: 
+{makerAddress: "5cu13kMquEs9hR7q3bbVWhEi92oapdwziozoAZx66XRE", buyTransactions: 3, sellTransactions: 9,…}
+3
+: 
+{makerAddress: "5RPS7HWybcCmikFXht5eESxmxPsrRPpJL9sgtB6WyA8a", buyTransactions: 3, sellTransactions: 9,…}
+4
+: 
+{makerAddress: "Hnf5TCyFca61sd41u7Ynok8bTyHh4cj1qYGViCiFpVbH", buyTransactions: 0, sellTransactions: 1,…}
+
+
+0
+: 
+{makerAddress: "EvugJFAyfH9tdB99uHar9frJr3ZLfpPQwaZZRdAsz3FT", buyTransactions: 1, sellTransactions: 1,…}
+buyTransactions
+: 
+1
+isBundler
+: 
+false
+isInsider
+: 
+false
+isProUser
+: 
+true
+isSniper
+: 
+true
+lastActiveTimestamp
+: 
+1767742398074
+lastUpdatedSlot
+: 
+391796659
+makerAddress
+: 
+"EvugJFAyfH9tdB99uHar9frJr3ZLfpPQwaZZRdAsz3FT"
+sellTransactions
+: 
+1
+solBalance
+: 
+73.032589295
+solInvested
+: 
+5.000056104
+solSold
+: 
+8.2433475075
+tokenBalance
+: 
+0
+tokensBought
+: 
+151660777.334045
+tokensSold
+: 
+151660777.334045
+usdInvested
+: 
+703.78289691852
+usdSold
+: 
+1162.3532152950372
+walletAddress
+: 
+"EvugJFAyfH9tdB99uHar9frJr3ZLfpPQwaZZRdAsz3FT"
+walletFunding
+: 
+{fundingWalletAddress: "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",…}
+
+
+Request URL
+https://api9.axiom.trade/holder-data-v3?pairAddress=9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6&v=2
+
+
+[{walletAddress: "9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6", tokenBalance: 365345076.813153,…},…]
+0
+: 
+{walletAddress: "9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6", tokenBalance: 365345076.813153,…}
+1
+: 
+{walletAddress: "BTZJRdccNMrF1tdwjSk9K369udDJpk8mxrZNP2U7vAxY", tokenBalance: 40567356.271998,…}
+2
+: 
+{walletAddress: "9v5eY1d56U56AVrqQHnBwcYwVnEmb2Vc3Pym2Mp52jov", tokenBalance: 31223560.641011,…}
+3
+: 
+{walletAddress: "CxY7vnKQQPAAaFFZJSAJoGwgDFnwrtVJpRUQLThaZn2X", tokenBalance: 30535791.800231,…}
+4
+: 
+{walletAddress: "J7Jr2anPaJK556TbYbkKvU9yuT9BBcetefFromkXhz8U", tokenBalance: 28727822.628636,…}
+5
+: 
+{walletAddress: "ETU3GyrUsv6UztQJxHgsBX2UoJFmq79WJe3JyDpAqGMz", tokenBalance: 23318193.730784,…}
+6
+: 
+{walletAddress: "JncDaQQw3Le31pw7tMBGveCDpYCzE7stL9Jaxpijij6", tokenBalance: 21161826.934541,…}
+7
+: 
+{walletAddress: "FBGFBGHDffK3c58Z5VrVWKtuSNozjqzTtvocMgXNbPAX", tokenBalance: 19809086.440511,…}
+
+
+
+0
+: 
+{walletAddress: "9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6", tokenBalance: 365345076.813153,…}
+buyTransactions
+: 
+0
+createdAt
+: 
+391796584
+isBundler
+: 
+true
+isInsider
+: 
+false
+isProUser
+: 
+false
+isSniper
+: 
+true
+lastActiveTimestamp
+: 
+1767744346660
+lastUpdatedSlot
+: 
+391801531
+sellTransactions
+: 
+0
+solBalance
+: 
+43.437237144
+solInvested
+: 
+0
+solSold
+: 
+0
+tokenBalance
+: 
+365345076.813153
+tokensBought
+: 
+0
+tokensSold
+: 
+0
+usdInvested
+: 
+0
+usdSold
+: 
+0
+walletAddress
+: 
+"9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6"
+walletFunding
+: 
+{fundingWalletAddress: "EvugJFAyfH9tdB99uHar9frJr3ZLfpPQwaZZRdAsz3FT",…}
+
+
+
+https://api9.axiom.trade/top-traders-v3?pairAddress=9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6&onlyTrackedWallets=false&v=2
+
+
+0
+: 
+{makerAddress: "EvugJFAyfH9tdB99uHar9frJr3ZLfpPQwaZZRdAsz3FT", buyTransactions: 1, sellTransactions: 1,…}
+1
+: 
+{makerAddress: "Rg1YxXvRW75XCYMxm7VtrAiBmyp54yC4ftcE8f5tgiL", buyTransactions: 5, sellTransactions: 3,…}
+2
+: 
+{makerAddress: "5cu13kMquEs9hR7q3bbVWhEi92oapdwziozoAZx66XRE", buyTransactions: 3, sellTransactions: 9,…}
+3
+: 
+{makerAddress: "5RPS7HWybcCmikFXht5eESxmxPsrRPpJL9sgtB6WyA8a", buyTransactions: 3, sellTransactions: 9,…}
+
+
+buyTransactions
+: 
+1
+isBundler
+: 
+false
+isInsider
+: 
+false
+isProUser
+: 
+true
+isSniper
+: 
+true
+lastActiveTimestamp
+: 
+1767742398265
+lastUpdatedSlot
+: 
+391796659
+makerAddress
+: 
+"EvugJFAyfH9tdB99uHar9frJr3ZLfpPQwaZZRdAsz3FT"
+sellTransactions
+: 
+1
+solBalance
+: 
+73.032589295
+solInvested
+: 
+5.000056104
+solSold
+: 
+8.2433475075
+tokenBalance
+: 
+0
+tokensBought
+: 
+151660777.334045
+tokensSold
+: 
+151660777.334045
+usdInvested
+: 
+703.78289691852
+usdSold
+: 
+1162.3532152950372
+walletAddress
+: 
+"EvugJFAyfH9tdB99uHar9frJr3ZLfpPQwaZZRdAsz3FT"
+walletFunding
+: 
+{fundingWalletAddress: "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",…}
+
+
+
+first we need to get the database, and i told you to get it we need to abuse what we found in axiom
+we go to https://axiom.trade/pulse?chain=sol wait for a token that match our filter to pop and we will see it with the request https://axiomtrading.sfo3.cdn.digitaloceanspaces.com/Dt48inZpRzWxLXqajNZFAYTmzdJdZ5BTpMEj3TLHpump.webp
+we get the token contract we go then to https://axiom.trade/meme/Dt48inZpRzWxLXqajNZFAYTmzdJdZ5BTpMEj3TLHpump?chain=sol
+and get all the info from our urls 
+
+https://api8.axiom.trade/token-info?pairAddress=9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6&v=2
+
+
+https://api8.axiom.trade/dev-tokens-v2?devAddress=EvugJFAyfH9tdB99uHar9frJr3ZLfpPQwaZZRdAsz3FT&v=2
+
+https://api9.axiom.trade/transactions-feed?pairAddress=9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6&orderBy=DESC&makerAddress=&v=2
+
+
+https://api9.axiom.trade/pair-chart?pairAddress=9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6&from=1767742884000&to=1767744384000&currency=USD&interval=5s&openTrading=1767742290246&lastTransactionTime=1767744322673&countBars=300&showOutliers=false&isNew=false&v=2
+
+https://api9.axiom.trade/top-traders-v3?pairAddress=9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6&onlyTrackedWallets=false&v=2
+
+https://api9.axiom.trade/holder-data-v3?pairAddress=9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6&v=2
+
+
+https://api9.axiom.trade/top-traders-v3?pairAddress=9xxv8MZZzjiiduey5Edqr92316TSnhJWDVXwTZzMn2c6&onlyTrackedWallets=false&v=2
+
